@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>The Problem</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="index.html">Home</a></li>
+            <li class="navbar__link"><a href="problem.html">Problem</a></li>
+            <li class="navbar__link"><a href="solution.html">Solution</a></li>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+        <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/problem.png" alt="Problem with AI in Healthcare" />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Understanding the Problem </h1>
+          <p>
+          While artificial intelligence has offered numerous benefits to the healthcare industry, the emergence of algorithmic bias has raised significant concerns. These biases are critical to address due to their potential to affect patients' lives in profound ways.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Problem -->
+    <section id="problem">
+      <div class="container">
+        <!-- heading -->
+        <h2>Core Issues</h2>
+        <!-- item 1 -->
+        <div class="problem__item">
+          <!-- img -->
+          <img src="./img/issue 1.png" alt="AI Bias" />
+          <!-- text -->
+          <div class="problem--heading">
+            <h3>Observing differences in the X-rays</h3>
+            <p>
+              
+              <p> Three groups of scientists from the US, Taiwan, and Canada published their work in The Lancet Digital Health. These scientists trained and further developed their AI using hundreds of thousands of X-rays containing information about the patient's race. Next, they gave the AI thousands of pictures without specifying the patient’s race. </p>
+
+              <p> Lastly, the scientists asked the machine to guess the individual’s race. It is important to note that the neural network had never seen those particular images and had no additional information about individuals. However, the AI successfully guessed the person's race (White, Black, Asian) with a staggering 98% success rate. Even if the scans were taken from people of the same age, gender, and body shape, the AI was able to guess the person’s race correctly. </p>
+
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="problem__item">
+          <!-- img -->
+          <img src="./img/issue2.png" alt="Unequal Treatment" />
+          <!-- text -->
+          <div class="problem--heading">
+            <h3>Unequal Treatment</h3>
+            <p>
+
+              The Journal of Science published a study performed by Ziad Obermeyer and Brian Powers, where those team of scientists assessed data collected from 43,539 White patients and 6,079 Black patients who the algorithm had categorized as denied access. This means that Black patients have less access to the healthcare than White patients.
+
+              <p> The purpose of the pre-program task was to select the patients who could be helped with the most effective risk-result-cost ratio. The choice made by the computer was then compared with objective readings taken manually, considering both account biomarkers and vital signs, but not considering the patient's race. The unfair accessability to the treatment has resulted in the algorthims predicting that less money are spend on the Black patients treamtments, resulting in racial biases (Obermeyer, Science, 2019).
+              </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
